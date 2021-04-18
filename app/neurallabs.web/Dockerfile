@@ -45,7 +45,7 @@ COPY --chown=www:www ./src/ /var/www/html
 # Change current user to www
 USER www
 
-WORKDIR /var/www/html/
+WORKDIR /var/www/html/app/neurallabs.web/src/
 
 RUN composer install
 
