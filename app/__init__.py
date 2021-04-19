@@ -1,0 +1,1 @@
+"""Python treats app as a module by having __init__.py"""
